@@ -1,0 +1,23 @@
+.swiper {
+    position: static !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+/* @media screen and (min-width: 1140px) {
+    .swiper-slide {
+        width: 360px !important;
+        
+    }
+    .swiper-slide .swiper-slide-duplicate-next {
+        opacity:0 !important;
+    }
+    
+    .swiper-wrapper {
+        max-width: 1110px !important;
+        padding: 0 15px;
+    }
+} */
