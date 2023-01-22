@@ -7,6 +7,15 @@
     height: 50px !important;
 }
 
+@media screen and (min-width: 1140px) {
+    .swiper {
+        width: calc(100% - 10px) !important;
+    }
+
+    .swiper-slide {
+        width: 360px !important;
+    }
+}
 /* @media screen and (min-width: 1140px) {
     .swiper-slide {
         width: 360px !important;

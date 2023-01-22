@@ -7,8 +7,8 @@ export const firstIndexSlider = (swiper, current, total) => {
 
     if (swiper.params.slidesPerView === 3) {
         if (current === 1 || current === 2 || current === 3) {
-            text += hiddenItem
             text += activeItem
+            text += hiddenItem
             text += hiddenItem
             text += item
             text += hiddenItem
@@ -80,13 +80,13 @@ export const secondIndexSlider = (swiper, current, total) => {
         if (current === 1 || current === 2) {
             text += activeItem
             text += hiddenItem
-            text += hiddenItem
             text += item
+            text += hiddenItem
         } else if (current === 3 || current === 4) {
             text += item
             text += hiddenItem
-            text += hiddenItem
             text += activeItem
+            text += hiddenItem
         }
     }
     if (swiper.params.slidesPerView === 1) {
@@ -103,5 +103,4 @@ export const secondIndexSlider = (swiper, current, total) => {
 
     return text;
 };
-
 
